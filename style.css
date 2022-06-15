@@ -4,7 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -32,7 +32,8 @@ section {
   background-color: whitesmoke;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   background-color: #242424;
   color: #fff;
@@ -57,12 +58,14 @@ label {
   font-weight: bold;
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
   border-color: #dcdfe6;
 }
 
-input:focus, textarea:focus {
-  border-color: #f06449;
+input:focus,
+textarea:focus {
+  border-color: #f1931b;
 }
 
 .container {
@@ -85,7 +88,7 @@ input:focus, textarea:focus {
 }
 
 .orange {
-  color: #f06449;
+  color: #f1931b;
 }
 
 .click {
@@ -132,7 +135,9 @@ input:focus, textarea:focus {
   background-color: #fff;
 }
 
-nav, header, .scroll {
+nav,
+header,
+.scroll {
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 600ms 800ms;
@@ -157,9 +162,9 @@ nav, header, .scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -227,7 +232,7 @@ nav, header, .scroll {
 }
 
 #landing-page header .social__list .social__link {
-  background-color: #f06449;
+  background-color: #f1931b;
   color: #fff;
   padding: 6px;
   width: 32px;
@@ -461,8 +466,8 @@ nav, header, .scroll {
 }
 
 .modal .modal__contact #contact__form .form__submit {
-  background-color: #f06449;
-  border: 2px solid #f06449;
+  background-color: #f1931b;
+  border: 2px solid #f1931b;
   color: #fff;
   font-weight: 700;
   max-width: 240px;
@@ -479,8 +484,8 @@ nav, header, .scroll {
 }
 
 .modal .modal__contact #contact__form .form__submit:active {
-  border-color: #f06449;
-  color: #f06449;
+  border-color: #f1931b;
+  color: #f1931b;
 }
 
 .modal .modal__contact .modal__overlay {
@@ -539,7 +544,7 @@ nav, header, .scroll {
 }
 
 .modal .modal__contact .modal__overlay--success {
-  background-color: #4bb553;
+  background-color: #f1931b;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -781,10 +786,20 @@ footer .footer__row .footer__copyright {
     width: 100%;
     text-align: center;
   }
-  #projects .project__list .project .project__wrapper .project__description .project__description--sub-title {
+  #projects
+.project__list
+.project
+.project__wrapper
+.project__description
+.project__description--sub-title {
     margin-bottom: 8px;
   }
-  #projects .project__list .project .project__wrapper .project__description .project__description--title {
+  #projects
+.project__list
+.project
+.project__wrapper
+.project__description
+.project__description--title {
     font-size: 32px;
   }
 }
